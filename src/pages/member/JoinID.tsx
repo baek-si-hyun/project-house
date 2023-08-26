@@ -1,14 +1,14 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 
-function LoginPW() {
+function JoinID() {
   const { register, watch, handleSubmit } = useForm();
+
   const navigate = useNavigate();
 
-  const handleLogin = () => {
-    navigate("/");
+  const handleJoin = () => {
+    navigate("/join-name");
   };
-
   return (
     <div className="h-screen">
       <div className="flex flex-col items-center">
@@ -17,32 +17,26 @@ function LoginPW() {
             PROJECT HOUSE
           </span>
         </div>
-        <form onSubmit={handleSubmit(handleLogin)} className="flex flex-col">
+        <form onSubmit={handleSubmit(handleJoin)} >
           <label
-            htmlFor="password"
+            htmlFor="email"
             className="block text-sm font-medium leading-6 text-gray-900"
           >
-            Password
+            Email Address
           </label>
           <input
-            id="password"
-            type="password"
-            {...register("password")}
             className="block w-full rounded-md border-0 py-1.5 pl-4 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 outline-none"
+            id="email"
+            type="text"
+            {...register("email")}
           />
-          <div className="flex justify-between pt-2">
-            <Link
-              to={`/join-id`}
-              className="text-sm font-semibold leading-6 text-gray-900"
-            >
-              계정 만들기
-            </Link>
+          <div className="flex items-center justify-end pt-2">
             <button
               type="submit"
               className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              disabled={!watch("password")}
+              disabled={!watch("email")}
             >
-              로그인
+              다음
             </button>
           </div>
         </form>
@@ -51,4 +45,4 @@ function LoginPW() {
   );
 }
 
-export default LoginPW;
+export default JoinID;
