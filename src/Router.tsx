@@ -5,14 +5,18 @@ import LoginPW from "./pages/member/LoginPW";
 import JoinID from "./pages/member/JoinID";
 import JoinName from "./pages/member/JoinName";
 import JoinPW from "./pages/member/JoinPW";
+import Header from "./components/header/Header";
+import Home from "./pages/Home";
 
 // const Header = lazy(() => import("./components/header/Header"));
 
 function Router() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Header />
       <Suspense fallback={<></>}>
         <Routes>
+          <Route path="/" element={<Home />}></Route>
           <Route path="/login-id" element={<LoginID />}></Route>
           <Route path="/login-pw" element={<LoginPW />}></Route>
           <Route path="/join-id" element={<JoinID />}></Route>
