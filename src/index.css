@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+<<<<<<< HEAD
 @tailwind utilities;
 
 @font-face {
@@ -35,3 +36,6 @@
     display: none;
   }
 }
+=======
+@tailwind utilities;
+>>>>>>> 2035c02e5d4dcdf8c2d8a8ac76bb6a94c0df3ea7

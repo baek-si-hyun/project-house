@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "client",
+=======
+  "name": "project-house",
+>>>>>>> 2035c02e5d4dcdf8c2d8a8ac76bb6a94c0df3ea7
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +20,10 @@
     "@types/react-dom": "^18.2.7",
     "gh-pages": "^6.0.0",
     "react": "^18.2.0",
+<<<<<<< HEAD
     "react-beautiful-dnd": "^13.1.1",
+=======
+>>>>>>> 2035c02e5d4dcdf8c2d8a8ac76bb6a94c0df3ea7
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.45.4",
     "react-redux": "^8.1.2",
@@ -52,7 +59,10 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@types/react-beautiful-dnd": "^13.1.4",
+=======
+>>>>>>> 2035c02e5d4dcdf8c2d8a8ac76bb6a94c0df3ea7
     "tailwindcss": "^3.3.3"
   }
 }
