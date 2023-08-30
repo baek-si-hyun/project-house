@@ -46,15 +46,8 @@ function ProfileEdit({ isModalOpen, setIsModalOpen }: ProfileEditProps) {
               프로필 편집
             </h3>
             <div className="flex items-center gap-4">
-<<<<<<< HEAD
               <span
                 className="w-16 h-16 bg-black rounded-full"
-=======
-              <img
-                className="w-16 h-16 bg-black rounded-full"
-                src="/docs/images/people/profile-picture-3.jpg"
-                alt="user photo"
->>>>>>> 2035c02e5d4dcdf8c2d8a8ac76bb6a94c0df3ea7
               />
               <label
                 htmlFor="picture"

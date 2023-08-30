@@ -18,13 +18,8 @@ function Header() {
   if (pathname.includes("join") || pathname.includes("login")) return null;
 
   return (
-<<<<<<< HEAD
-    <div className="w-full bg-white border-b border-gray-200  dark:bg-gray-900">
+    <div className="w-full bg-white border-b border-gray-200 dark:bg-gray-900">
       <div className="flex flex-wrap items-center justify-between px-4 py-2">
-=======
-    <div className="w-full bg-white border-gray-200 dark:bg-gray-900">
-      <div className="flex flex-wrap items-center justify-between p-4">
->>>>>>> 2035c02e5d4dcdf8c2d8a8ac76bb6a94c0df3ea7
         <a href="#" className="flex items-center">
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             ProjectHouse
@@ -48,15 +43,9 @@ function Header() {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-<<<<<<< HEAD
                 fillRule="evenodd"
                 d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
                 clipRule="evenodd"
-=======
-                fill-rule="evenodd"
-                d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                clip-rule="evenodd"
->>>>>>> 2035c02e5d4dcdf8c2d8a8ac76bb6a94c0df3ea7
               ></path>
             </svg>
           </div>

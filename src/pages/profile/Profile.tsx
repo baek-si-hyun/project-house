@@ -17,15 +17,9 @@ function Profile() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-<<<<<<< HEAD
               fillRule="evenodd"
               d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
               clipRule="evenodd"
-=======
-              fill-rule="evenodd"
-              d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-              clip-rule="evenodd"
->>>>>>> 2035c02e5d4dcdf8c2d8a8ac76bb6a94c0df3ea7
             ></path>
           </svg>
         </div>
